@@ -1,0 +1,205 @@
+.email-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+
+    height: 50px;
+    width: 50px;
+
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
+    font-size: medium;
+    text-align: center;
+    display: flex;                /* To center text inside */
+    justify-content: center;     /* Horizontal text centering */
+    align-items: center;  /* Vertical text centering */
+
+    background-color: rgb(206, 71, 71); 
+}
+
+.email-btn:hover {
+  transform: scale(1.03);
+}
+
+.section1{
+    /* text-align: center; */
+    height: 30vh;
+    /* font-size: 30px; */
+
+     /* Centering content vertically and horizontally */
+    /* display: flex; */
+    /* Centering content horizontally */
+    /* justify-content: center;  */
+    /*Centering content vertically */
+    /* align-items: center;  */
+} 
+
+.background-image{
+    position: static;
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.section2{
+    text-align: center;
+    height: 70vh;
+    font-size: larger;
+
+    display: flex; /* Centering content vertically and horizontally */
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+
+    background-color: white;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: static;
+    height: 10vh;
+}
+
+.profile-pic{
+    position: absolute;
+    top: 31vh;
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+    display: flex;                /* To center text inside */
+    justify-content: center;     /* Horizontal text centering */
+    align-items: center;  /* Vertical text centering */
+
+    border-color: black;
+}
+
+.linkedIn-btn{
+    position: absolute;
+    right: 4vh;
+    top: 70vh;
+    
+    width: 150px;  
+    height: 50px;            
+    padding: 10px 20px; 
+    
+    font-size: large;
+    text-align: center;
+
+    border: 2px solid rgb(0, 0, 0);
+    background-color: lightblue;
+
+    display: flex;                /* To center text inside */
+    justify-content: center;     /* Horizontal text centering */
+    align-items: center;  /* Vertical text centering */
+
+}
+
+.linkedIn-btn:hover {
+  transform: scale(1.03);
+}
+
+.section3{
+    height: 50vh;
+    background-color: lightgray;
+
+    text-align: center;
+    font-size: large;
+
+    padding: 30px;
+
+}
+
+.education-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+.box {
+    padding: 60px 60px;
+
+    border: 2px solid black;
+    background-color: #fff;
+
+    font-weight: bold;
+    font-size: larger;
+}
+
+.section4{
+    height:30vh;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+
+    padding: 30px; /* padding in sections helps to create space between text and border */
+}
+
+body {
+  background-color: #0f172a; /* Dark background like in the image */
+  font-family: Arial, sans-serif;
+}
+
+/* ----------------------------------------------------------------------*/
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.btn i {
+  font-size: 18px;
+}
+
+/* Platform-specific button styles */
+.facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 0 5px #2d4373;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.github {
+  background-color: #24292e;
+}
+
+.google {
+  background-color: #4285f4;
+}
+
+.apple {
+  background-color: #000000;
+}
+
+/* Hover effect */
+.btn:hover {
+  transform: scale(1.03);
+}
